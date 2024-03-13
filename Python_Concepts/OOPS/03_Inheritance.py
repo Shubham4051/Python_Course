@@ -8,7 +8,7 @@ class B(A):
     def displayB(self):
         print("Welcome to class B")
 
-# class C(A,B): # if not using multilevel inheritance
+# class C(A,B): # if using multiple inheritance
 class C(B):
     def displayC(self):
         print("Welcome to class C")
