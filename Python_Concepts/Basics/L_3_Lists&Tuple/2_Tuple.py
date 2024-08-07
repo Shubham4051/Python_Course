@@ -1,0 +1,5 @@
+tup = (96, 48, 75, 83, 54, 56 , 56, 56)
+print(tup[0])
+print(tup)
+print(tup.index(75))
+print(tup.count(56))
