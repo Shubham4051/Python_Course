@@ -15,5 +15,16 @@ info = {
 }
 info["name"] = "Shubham"
 info["sur_name"] = "Adarsh"
+
+new_dict = {
+    "clg" : "TIT",
+    "branch" : "AIML"
+}
+info.update(new_dict)
+
 print(info)
 print(info["language"])
+
+print(list(info.keys()))
+
+print(info.items())
