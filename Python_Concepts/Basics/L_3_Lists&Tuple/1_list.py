@@ -1,5 +1,5 @@
 sec = [1, 'a', 3, 'c', 5, 6, 7, 8]
-print(sec)
+print(type(sec))
 print(len(sec))
 print(sec[0])
 print(sec[-1])
