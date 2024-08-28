@@ -19,3 +19,21 @@
 
 # print(quick_sort([4,6,8,3,2,5,7,8,9]))
 
+def quick_sort(arr):
+    if len(arr) > 1:
+        pivot = arr.pop()
+    else:
+        return arr
+    
+    arr_big = []
+    arr_small = []
+
+    for items in arr:
+        if items < pivot:
+            arr_small.append(items)
+        else:
+            arr_big.append(items)
+    new_arr = quick_sort(arr_small) + [pivot] + quick_sort(arr_big)
+    return new_arr
+
+print(quick_sort([4,6,8,3,2,5,7,8,9]))
