@@ -3,8 +3,8 @@ ar = [4,6,8,3,2,5,7,8,9]
 
 c = 0
 
-for i in range(len(ar)):
-    for j in range(0,len(ar)-i-1):
+for i in range(len(ar)-1):
+    for j in range(0,len(ar)-1-i):
         if ar[j] > ar[j+1] :
             ar[j], ar[j+1] = ar[j+1], ar[j]
             c += 1
