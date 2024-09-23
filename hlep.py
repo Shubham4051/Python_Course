@@ -1,2 +1,3 @@
-# s = "shubham"
-# for i in s: print(i)
+# help()
+for _ in range(1,10,0):
+    print(_)
